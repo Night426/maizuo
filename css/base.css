@@ -1,0 +1,52 @@
+/*------样式重置------------*/
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";font-size: 12px;}
+input,a{outline:none;}
+
+/*-----移动端设置-----*/
+html{font-size: 26.7vw;}
+
+/*-----------页脚选项-----------*/
+footer {
+	width: 100%;
+	height: 0.6rem;
+	position: fixed;
+	bottom: 0;
+}
+
+#foot{
+	width: 100%;
+	height: 0.6rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+#foot li {
+	width: 25%;
+	height: 0.55rem;
+}
+
+.foota{
+	display: block;
+	height: 0.55rem;
+	text-align: center;
+	position: relative;
+}
+
+.footimg {
+	width: 0.25rem;
+	height: 0.25rem;
+	position: absolute;
+	left: 36%;
+	top: 0.10rem;
+}
+
+.foottext {
+	padding-top: 0.33rem;
+	font-size: 0.12rem;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximumscale=1.0,
+user-scalable=no">
+    <title>maizuoyidong</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+	<!---------------header------------------>
+    <header id="header">
+        <a href="" id="city"><span class="city">哈尔滨</span></a>
+        <!-------------------banner------------------->
+        <ul id="banner">
+            <li><a href="#"><img class="banpic" src="img/banner1.jpg"></a></li>
+            <li><a href="#"><img class="banpic" src="img/banner2.png"></a></li>
+            <li><a href="#"><img class="banpic" src="img/banner3.png"></a></li>
+            <li><a href="#"><img class="banpic" src="img/banner4.png"></a></li>
+            <li><a href="#"><img class="banpic" src="img/banner5.png"></a></li>
+            <li><a href="#"><img class="banpic" src="img/banner6.png"></a></li>
+            <li><a href="#"><img class="banpic" src="img/banner1.jpg"></a></li>
+        </ul>
+        <!-------页码------>
+        <ul id="banpage">
+            <li class="page" style="background:#fff"></li>
+            <li class="page"></li>
+            <li class="page"></li>
+            <li class="page"></li>
+            <li class="page"></li>
+            <li class="page" style="margin-right:0"></li>
+        </ul>
+    </header>
+    <nav>
+        <P class="text" id="text1">正在热映</P>
+        <P class="text" id="text2">即将上映</P>
+    </nav>
+
+    <section>
+        <ul id="movieleft">
+           <li>
+            <div class="moviesection">
+                <a href="html/jieshao.html">
+                    <img class="movieimg" src="${moviedata[moviei].imgurl}">
+                </a>
+                    <div class="movietxt">
+                        <p class="movienameTxt"><a href="html/jieshao.html">${moviedata[moviei].cont}</a><span class="movienameTxt_2D">2D</span></p>
+                        <p class="moviepingfen">观众评分<em>${moviedata[moviei].pingfen}</em></p>
+                        <p class="movieyanyuan"><a href="html/jieshao.html">${moviedata[moviei].yanyuan}</a></p>
+                        <p class="movietime"><a href="html/jieshao.html">${moviedata[moviei].country}|${moviedata[moviei].time}</a></p>
+                    </div>
+                    <div class="goupiao"><a href="html/jieshao.html">购票</a></div>
+            </div><li> 
+        </ul>
+        <ul id="movieright">
+            <li>
+            <div class="moviesection">
+                <a href="html/jieshao.html">
+                    <img class="movieimg" src="${moviedata[moviei].imgurl}">
+                </a>
+                    <div class="movietxt">
+                        <p class="movienameTxt"><a href="html/jieshao.html">${moviedata[moviei].cont}</a><span class="movienameTxt_2D">2D</span></p>
+                        <p class="moviepingfen">观众评分<em>${moviedata[moviei].pingfen}</em></p>
+                        <p class="movieyanyuan"><a href="html/jieshao.html">${moviedata[moviei].yanyuan}</a></p>
+                        <p class="movietime"><a href="html/jieshao.html">${moviedata[moviei].country}|${moviedata[moviei].time}</a></p>
+                    </div>
+                    <div class="goupiao"><a href="html/jieshao.html">购票</a></div>
+            </div><li>
+        </ul>
+    </section>
+    <footer>
+        <ul id="foot">
+            <li>
+                <a class="foota" href="index.html">
+                    <img class="footimg" src="img/foot2.png">
+                    <p class="foottext" style="color:#ff5f16">电影</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="foota" href="html/jieshao.html">
+                    <img class="footimg" src="img/foot3.png">
+                    <p class="foottext">影院</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="foota" href="html/99pintuan.html">
+                    <img class="footimg" src="img/foot5.png">
+                    <p class="foottext">9.9拼团</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="foota" href="html/dl.html">
+                    <img class="footimg" src="img/foot6.png">
+                    <p class="foottext">我的</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/banner.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/case.js"></script>
+</body>
+</html>
